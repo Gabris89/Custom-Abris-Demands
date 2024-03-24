@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_programmatic">
+    <content_block_programmatic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Project Number</name>
+        <programmatic_content><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+    <g:include page="doctype.jsp"/>
+    <table>
+        <tr>
+            <td>
+                <h2>Adat megjelenítése:</h2>
+                <p>Itt jelenik meg az adat: 
+                    <span id="dataValue" style="color: green; font-size: 2em; font-weight: bold; text-align: center;">
+                        <a id="projectLink" href="${data.projectLink}">${data.projectId}</a>
+                    </span>
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        // JavaScript kód ide
+        var data = {
+            projectId: "", // Projekt azonosító
+            projectLink: "" // Projekt részleteinek URL-je
+        };
+
+        var gr = new GlideRecord('pm_project');
+        gr.addQuery('sys_id', '23d8ff0847e8021075dbcbb9316d4314'); // Projekt sys_id feltétele
+        gr.query();
+        if (gr.next()) {
+            data.projectId = gr.getValue('number');
+            data.projectLink = "/pm_project.do?sys_id=" + gr.getValue('sys_id'); // A projekt részleteinek URL-je
+        }
+        document.getElementById("dataValue").innerText = data.projectId;
+        document.getElementById("projectLink").setAttribute("href", data.projectLink);
+    </script>
+</j:jelly>]]></programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 08:47:58</sys_created_on>
+        <sys_id>845e295e4720021075dbcbb9316d4319</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Project Number</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>content_block_programmatic_845e295e4720021075dbcbb9316d4319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 09:00:57</sys_updated_on>
+        <two_phase>false</two_phase>
+    </content_block_programmatic>
+</record_update>

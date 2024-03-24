@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="pm_project" version="2" view="RPT5558f3204760021075dbcbb9316d43b5">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="pm_project" element="NULL" name="pm_project" parent="NULL" relationship="NULL" sys_domain="global" view="d158f7204760021075dbcbb9316d43dd">d558f7204760021075dbcbb9316d43de</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 08:21:01</sys_created_on>
+            <sys_id>dd58f7204760021075dbcbb9316d43de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 08:21:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>pm_project</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 08:21:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d558f7204760021075dbcbb9316d43de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pm_project</sys_name>
+            <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+            <sys_update_name>sys_ui_list_pm_project_RPT5558f3204760021075dbcbb9316d43b5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 08:21:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt5558f3204760021075dbcbb9316d43b5" name="RPT5558f3204760021075dbcbb9316d43b5">d158f7204760021075dbcbb9316d43dd</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</application>
+        <file_path/>
+        <instance_id>eea597951bc27dd852a243f4bd4bcbb6</instance_id>
+        <instance_name>dev193245</instance_name>
+        <name>sys_ui_list_pm_project_RPT5558f3204760021075dbcbb9316d43b5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="pm_project" version="2" view="RPT5558f3204760021075dbcbb9316d43b5"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="pm_project" element="NULL" name="pm_project" parent="NULL" relationship="NULL" sys_domain="global" view="d158f7204760021075dbcbb9316d43dd">d558f7204760021075dbcbb9316d43de</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 08:21:01</sys_created_on><sys_id>dd58f7204760021075dbcbb9316d43de</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 08:21:01</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>pm_project</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 08:21:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d558f7204760021075dbcbb9316d43de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>pm_project</sys_name><sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package><sys_policy/><sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope><sys_update_name>sys_ui_list_pm_project_RPT5558f3204760021075dbcbb9316d43b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 08:21:01</sys_updated_on><sys_user/><view display_value="Rpt5558f3204760021075dbcbb9316d43b5" name="RPT5558f3204760021075dbcbb9316d43b5">d158f7204760021075dbcbb9316d43dd</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>320946318</payload_hash>
+        <record_name>Project</record_name>
+        <reverted_from/>
+        <source>a4a6df0b4794021075dbcbb9316d437a</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 08:21:01</sys_created_on>
+        <sys_id>9958f7204760021075dbcbb9316d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dcac0fafb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 08:21:01</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>1158f720c560021006d1b173f15b8ae0</update_guid>
+        <update_guid_history>1158f720c560021006d1b173f15b8ae0:320946318</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 16:57:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>0ce97c909fe3405b8f26ef8bbc2d7839</sys_id>
+        <sys_metadata>d558f7204760021075dbcbb9316d43de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pm_project</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_parent display_value="Pm Project">caed576a4700021075dbcbb9316d4302</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_scope_delete display_value="">031f33624760400c8e98df96c3e22629</sys_scope_delete>
+        <sys_update_name>sys_ui_list_pm_project_RPT5558f3204760021075dbcbb9316d43b5</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_pm_project_RPT5558f3204760021075dbcbb9316d43b5">9958f7204760021075dbcbb9316d43e0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 16:57:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

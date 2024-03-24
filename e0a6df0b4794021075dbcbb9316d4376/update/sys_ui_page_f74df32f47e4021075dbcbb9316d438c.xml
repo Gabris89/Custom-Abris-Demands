@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1143687_valami_Abris test UI page7.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+
+
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+
+
+         <g:evaluate>
+
+
+                   var obj = [];
+
+
+                   var gr= new GlideRecord('sys_user_group');
+
+
+                   gr.query();
+
+
+                   while(gr.next()) {
+
+
+                             obj.push(gr.name.getDisplayValue());
+
+
+                   }
+
+
+         </g:evaluate>
+
+
+
+         <select name="AGroup">
+
+
+                   <j:forEach var="jvar_choice" items="${obj}">
+
+
+                             <option value="${jvar_choice}">${jvar_choice}</option>
+
+
+                   </j:forEach>
+
+
+         </select>     
+
+
+
+</j:jelly>
+
+]]></html>
+        <name>Abris test UI page7</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 16:24:54</sys_created_on>
+        <sys_id>f74df32f47e4021075dbcbb9316d438c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Abris test UI page7</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_ui_page_f74df32f47e4021075dbcbb9316d438c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 16:31:12</sys_updated_on>
+    </sys_ui_page>
+</record_update>

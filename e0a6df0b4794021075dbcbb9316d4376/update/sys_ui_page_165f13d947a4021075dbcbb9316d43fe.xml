@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>true</direct>
+        <endpoint>x_1143687_valami_Abris test UI page.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+    <g:include page="doctype.jsp"/>
+    <table>
+        <tr>
+            <td>
+                <h2>Adat megjelenítése:</h2>
+                <p>Itt jelenik meg az adat: <span id="dataValue">${data}</span></p>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        // Javascript kód ide
+        var data = "Ez itt az adat, amit meg kell jeleníteni!";
+        document.getElementById("dataValue").innerText = data;
+    </script>
+</j:jelly>]]></html>
+        <name>Abris test UI page</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 14:28:34</sys_created_on>
+        <sys_id>165f13d947a4021075dbcbb9316d43fe</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Abris test UI page</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_ui_page_165f13d947a4021075dbcbb9316d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-23 14:50:11</sys_updated_on>
+    </sys_ui_page>
+</record_update>

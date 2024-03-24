@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="pm_project_task" version="2" view="RPTae6c721c47a8421075dbcbb9316d43fd">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="pm_project_task" element="NULL" name="pm_project_task" parent="NULL" relationship="NULL" sys_domain="global" view="e26cba1c47a8421075dbcbb9316d43e8">8b495790476c421075dbcbb9316d431e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-20 11:26:57</sys_created_on>
+            <sys_id>83495790476c421075dbcbb9316d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-20 11:26:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_date</element>
+            <list_id display_value="pm_project_task" element="NULL" name="pm_project_task" parent="NULL" relationship="NULL" sys_domain="global" view="e26cba1c47a8421075dbcbb9316d43e8">8b495790476c421075dbcbb9316d431e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-20 11:26:57</sys_created_on>
+            <sys_id>07495790476c421075dbcbb9316d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-20 11:26:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>work_start</element>
+            <list_id display_value="pm_project_task" element="NULL" name="pm_project_task" parent="NULL" relationship="NULL" sys_domain="global" view="e26cba1c47a8421075dbcbb9316d43e8">8b495790476c421075dbcbb9316d431e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-20 11:26:57</sys_created_on>
+            <sys_id>87495790476c421075dbcbb9316d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-20 11:26:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="pm_project_task" element="NULL" name="pm_project_task" parent="NULL" relationship="NULL" sys_domain="global" view="e26cba1c47a8421075dbcbb9316d43e8">8b495790476c421075dbcbb9316d431e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-20 11:26:57</sys_created_on>
+            <sys_id>0b495790476c421075dbcbb9316d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-20 11:26:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>pm_project_task</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-20 11:26:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b495790476c421075dbcbb9316d431e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pm_project_task</sys_name>
+            <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+            <sys_update_name>sys_ui_list_pm_project_task_RPTae6c721c47a8421075dbcbb9316d43fd</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-20 11:26:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptae6c721c47a8421075dbcbb9316d43fd" name="RPTae6c721c47a8421075dbcbb9316d43fd">e26cba1c47a8421075dbcbb9316d43e8</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

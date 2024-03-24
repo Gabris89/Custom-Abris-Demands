@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="tsp1_demand" version="2" view="exp_d2a22060c4760021075dbcbb9316d435c">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>e6224ecc4760021075dbcbb9316d43a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>score_value</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>ae224ecc4760021075dbcbb9316d43a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>score_risk</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>22224ecc4760021075dbcbb9316d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>score_size</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>a2224ecc4760021075dbcbb9316d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>score</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>26224ecc4760021075dbcbb9316d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>a6224ecc4760021075dbcbb9316d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>2a224ecc4760021075dbcbb9316d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>aa224ecc4760021075dbcbb9316d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>portfolio</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>2e224ecc4760021075dbcbb9316d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>stage</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>ae224ecc4760021075dbcbb9316d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>project</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>22224ecc4760021075dbcbb9316d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approved_start_date</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>a2224ecc4760021075dbcbb9316d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approved_end_date</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>26224ecc4760021075dbcbb9316d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_date</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>a6224ecc4760021075dbcbb9316d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>requested_by</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>2a224ecc4760021075dbcbb9316d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_unit</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>aa224ecc4760021075dbcbb9316d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>department</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>2e224ecc4760021075dbcbb9316d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>investment_type</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>ae224ecc4760021075dbcbb9316d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>investment_class</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>22224ecc4760021075dbcbb9316d43a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="tsp1_demand" element="NULL" name="tsp1_demand" parent="NULL" relationship="NULL" sys_domain="global" view="e2224ecc4760021075dbcbb9316d4399">ea224ecc4760021075dbcbb9316d439e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_id>a2224ecc4760021075dbcbb9316d43a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>tsp1_demand</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 10:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea224ecc4760021075dbcbb9316d439e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tsp1_demand</sys_name>
+            <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+            <sys_update_name>sys_ui_list_tsp1_demand_exp_d2a22060c4760021075dbcbb9316d435c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 10:27:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Exp_d2a22060c4760021075dbcbb9316d435c" name="exp_d2a22060c4760021075dbcbb9316d435c">e2224ecc4760021075dbcbb9316d4399</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="caed576a4700021075dbcbb9316d4302" extends="planned_task" label="Project" max_length="40" name="pm_project" type="collection">
+        <element function_definition="glidefunction:coalesce(number,number)" function_field="true" label="PR ID" max_length="80" name="x_1143687_valami_rpt_pr_id" read_only="true" type="field_name"/>
+    </element>
+</database>

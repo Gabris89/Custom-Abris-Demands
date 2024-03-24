@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_programmatic">
+    <content_block_programmatic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Key Milestones</name>
+        <programmatic_content><![CDATA[<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+  <g:evaluate jelly="true" object="true" var="jvar_jsonObj">
+    // Tömb létrehozása az adatok tárolásához
+    var projectKeyMilestones = [];
+
+    // Lekérdezés a projekt státuszokhoz
+    var grProject = new GlideRecord('pm_project');
+    grProject.addQuery('sys_id', '23d8ff0847e8021075dbcbb9316d4314');
+    grProject.query();
+
+    if (grProject.next()) {
+      var prSysId = grProject.getValue('sys_id');
+
+      // Projekt milestone-ok lekérdezése
+      var grProjectMilestones = new GlideRecord('pm_project_task');
+      grProjectMilestones.addQuery('top_task', prSysId);
+	  grProjectMilestones.addQuery('key_milestone', 'true');
+      grProjectMilestones.query();
+
+      // Milestoneok bejárása és adatok betöltése a tömbbe
+      while (grProjectMilestones.next()) {
+        var MilestoneObject = {
+          'milestoneNumber': grProjectMilestones.getValue('number'),
+		  'milestoneSysID': grProjectMilestones.getValue('sys_id'),
+		  'milestoneShortDesc': grProjectMilestones.getValue('short_description'),
+          'milestonePlannedStartDate': grProjectMilestones.getValue('start_date').substring(0, 10),
+		  'milestoneActualStartDate': grProjectMilestones.getValue('work_start').substring(0, 10),
+		  'milestoneState': grProjectMilestones.getDisplayValue('state'),
+
+        };
+
+        projectKeyMilestones.push(MilestoneObject);
+		projectKeyMilestones;
+      }
+    }
+
+  </g:evaluate>
+
+   <style>
+    table {
+        border-color: black;
+		border-width: 15px;
+
+	}
+    th {
+      padding: 20px; /* További hely hozzáadása a header cellákhoz */
+	  text-align: center;
+    }
+    td {
+      width: 30px;
+      height: 30px;
+	  text-align:center;
+    }
+  </style>
+
+  <table border="2">
+    <tr>
+      <th style="padding: 10px; width:150px;">Milestone Number</th>
+	  <th style="padding: 10px; width:150px;">Short Description</th>
+      <th style="padding: 10px; width:150px;">Milestone Planned Start Date</th>
+      <th style="padding: 10px; width:150px;">Milestone Actual Start Date</th>
+      <th style="padding: 10px; width:150px;">State</th>
+
+    </tr>
+
+    <j:forEach var="jvar_json" items="${jvar_jsonObj}">
+      <tr>
+<td>
+    <a href="https://dev193245.service-now.com/nav_to.do?uri=pm_project_task.do?sys_id=${jvar_json.milestoneSysID}">
+        ${jvar_json.milestoneNumber}
+    </a>
+</td>
+		<td style="text-align:left; padding-left: 10px;">${jvar_json.milestoneShortDesc}</td>
+        <td>${jvar_json.milestonePlannedStartDate}</td>
+        <td>${jvar_json.milestoneActualStartDate}</td>
+        <td>${jvar_json.milestoneState}</td>
+      </tr>
+    </j:forEach>
+  </table>
+</j:jelly>]]></programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 15:30:07</sys_created_on>
+        <sys_id>7fa0e9914738021075dbcbb9316d43b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Key Milestones</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>content_block_programmatic_7fa0e9914738021075dbcbb9316d43b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 15:31:30</sys_updated_on>
+        <two_phase>false</two_phase>
+    </content_block_programmatic>
+</record_update>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_programmatic">
+    <content_block_programmatic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Issues</name>
+        <programmatic_content><![CDATA[<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+  <g:evaluate jelly="true" object="true" var="jvar_jsonObj">
+    // Tömb létrehozása az adatok tárolásához
+    var projectIssuesList = [];
+
+    // Lekérdezés a projekt státuszokhoz
+    var grProject = new GlideRecord('pm_project');
+    grProject.addQuery('sys_id', '23d8ff0847e8021075dbcbb9316d4314');
+    grProject.query();
+
+    if (grProject.next()) {
+      var prSysId = grProject.getValue('sys_id');
+
+      // Projekt issue-k lekérdezése
+      var grProjectIssues = new GlideRecord('issue');
+      grProjectIssues.addQuery('top_task', prSysId);
+      grProjectIssues.query();
+
+      // Issuek bejárása és adatok betöltése a tömbbe
+      while (grProjectIssues.next()) {
+        var IssuesObject = {
+          'issueNumber': grProjectIssues.getValue('number'),
+		  'issueSysID': grProjectIssues.getValue('sys_id'),
+		  'issueShortDesc': grProjectIssues.getValue('short_description'),
+          'issuePriority': grProjectIssues.getDisplayValue('priority'),
+		  'issueAssignedTo': grProjectIssues.getDisplayValue('assigned_to'),
+		  'issueDueDate': grProjectIssues.getValue('due_date').substring(0,10),
+		  'issueState': grProjectIssues.getDisplayValue('state')
+
+        };
+
+        projectIssuesList.push(IssuesObject);
+		projectIssuesList;
+      }
+    }
+
+  </g:evaluate>
+
+   <style>
+    table {
+        border-color: black;
+		border-width: 15px;
+
+	}
+    th {
+      padding: 20px; /* További hely hozzáadása a header cellákhoz */
+	  text-align: center;
+    }
+    td {
+      width: 30px;
+      height: 30px;
+	  text-align:center;
+    }
+  </style>
+
+  <table border="2">
+    <tr>
+      <th style="padding: 10px; width:150px;">Issue Number</th>
+	  <th style="padding: 10px; width:150px;">Short Description</th>
+      <th style="padding: 10px; width:150px;">Priority</th>
+	  <th style="padding: 10px; width:150px;">Assigned To</th>
+      <th style="padding: 10px; width:150px;">Due Date</th>
+      <th style="padding: 10px; width:150px;">State</th>
+
+    </tr>
+
+    <j:forEach var="jvar_json" items="${jvar_jsonObj}">
+      <tr>
+<td>
+    <a href="https://dev193245.service-now.com/nav_to.do?uri=issue.do?sys_id=${jvar_json.issueSysID}">
+        ${jvar_json.issueNumber}
+    </a>
+</td>
+		<td style="text-align:left; padding-left: 10px;">${jvar_json.issueShortDesc}</td>
+        <td>${jvar_json.issuePriority}</td>
+        <td>${jvar_json.issueAssignedTo}</td>
+        <td>${jvar_json.issueDueDate}</td>
+		<td>${jvar_json.issueState}</td>
+      </tr>
+    </j:forEach>
+  </table>
+</j:jelly>]]></programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 16:00:35</sys_created_on>
+        <sys_id>c9b7a19d4738021075dbcbb9316d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Issues</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>content_block_programmatic_c9b7a19d4738021075dbcbb9316d43d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 16:00:35</sys_updated_on>
+        <two_phase>false</two_phase>
+    </content_block_programmatic>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_programmatic">
+    <content_block_programmatic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Description</name>
+        <programmatic_content><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+    <g:include page="doctype.jsp"/>
+    <table>
+        <tr>
+            <td>
+               <!-- <h2>Adat megjelenítése:</h2> -->
+                <p><span id="dataValue">${data}</span></p>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        // JavaScript kód ide
+        var data = "";
+        var gr = new GlideRecord('pm_project');
+        gr.addQuery('sys_id', '23d8ff0847e8021075dbcbb9316d4314'); // Projekt sys_id feltétele
+        gr.query();
+        if (gr.next()) {
+            data = gr.getValue('description');
+        }
+        document.getElementById("dataValue").innerText = data;
+    </script>
+</j:jelly>]]></programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 08:30:42</sys_created_on>
+        <sys_id>273a6dd64720021075dbcbb9316d43b5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Description</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>content_block_programmatic_273a6dd64720021075dbcbb9316d43b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 09:10:58</sys_updated_on>
+        <two_phase>false</two_phase>
+    </content_block_programmatic>
+</record_update>

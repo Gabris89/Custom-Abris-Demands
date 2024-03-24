@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[(function() {
+    // Inicializáljuk a title-t, ha nincs options.title
+    data.title = options.title || 'My Project';
+    
+    // Inicializáljuk a projekt adatait
+    data.project = getProjectRecord();
+
+    function getProjectRecord() {
+        var project = {};
+
+        // Ellenőrizzük, hogy a sys_id csak egyetlen projektre vonatkozzon
+        var projectId = gs.getUser().getID(); // Itt a projekt azonosítóját lekérdezzük a jelenlegi felhasználótól vagy egyéb módon
+        var prjList = new GlideRecord('pm_project');
+        prjList.addQuery('sys_id', '23d8ff0847e8021075dbcbb9316d4314'); // Csak a megadott projektet kérdezzük le
+        prjList.query();
+
+        if (prjList.next()) {
+            project.sys_id = prjList.sys_id.toString();
+            project.number = prjList.number.toString();
+            project.short_description = prjList.short_description.toString();
+        }
+
+        return project;
+    }
+})();]]></client_script>
+        <description>nem működik</description>
+        <direct>false</direct>
+        <endpoint>x_1143687_valami_Abris Project UI Page.do</endpoint>
+        <html><![CDATA[<div class="panel panel-default">
+    <div class="panel-heading">
+        <h1 class="panel_title">
+            ${data.title}
+        </h1>
+    </div>
+    <div class="panel-body">
+        <a href="sp?id=form&amp;table=pm_project&amp;sys_id=${data.project.sys_id}">
+            ${data.project.number} - 
+            <span class="text-muted"><small>${data.project.short_description}</small></span>
+        </a>
+    </div>
+</div>]]></html>
+        <name>Abris Project UI Page</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 12:38:09</sys_created_on>
+        <sys_id>39aa75c94764021075dbcbb9316d439e</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Abris Project UI Page</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_ui_page_39aa75c94764021075dbcbb9316d439e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 16:55:23</sys_updated_on>
+    </sys_ui_page>
+</record_update>

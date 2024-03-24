@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1143687_valami_Abris test UI page4.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+
+<g:evaluate>
+// GlideRecord létrehozása és lekérdezés
+var gr = new GlideRecordSecure('pm_project');
+gr.addQuery('sys_id', '23d8ff0847e8021075dbcbb9316d4314'); // Projekt sys_id feltétele
+gr.query();
+
+// Adatok feltöltése a változókba
+var data = {};
+if (gr.next()) {
+    data.projectName = gr.getValue('short_description');
+    data.projectManager = gr.getDisplayValue('project_manager');
+    data.portfolio = gr.getDisplayValue('primary_portfolio');
+    data.approvedStartDate = gr.getDisplayValue('approved_start_date');
+    data.approvedEndDate = gr.getDisplayValue('approved_end_date');
+    data.plannedStartDate = gr.getDisplayValue('start_date');
+    data.plannedEndDate = gr.getDisplayValue('end_date');
+	data.state = gr.getDisplayValue('state');
+	data.phase = gr.getDisplayValue('phase');
+	data.percentComplete = gr.getValue('percent_complete');
+	data.actualCost = gr.getDisplayValue('work_cost');
+	data.actualStartDate = gr.getDisplayValue('work_start');
+	data.actualEndDate = gr.getDisplayValue('work_end');
+	data.plannedCost = gr.getDisplayValue('cost');
+}
+
+</g:evaluate>
+
+<style>
+.project-group {
+    margin-bottom: 20px;
+}
+
+.project-info {
+    display: inline-block;
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.project-info:last-child {
+    margin-right: 0;
+}
+
+.project-info label {
+    font-weight: bold;
+    display: block;
+}
+</style>
+
+<h2>Overview</h2>
+<div class="project-group">
+    <div class="project-info">
+        <label>Project Name:</label>
+        <span>${data.projectName}</span>
+    </div>
+    <div class="project-info">
+        <label>Project Manager:</label>
+        <span>${data.projectManager}</span>
+    </div>
+    <div class="project-info">
+        <label>Portfolio:</label>
+        <span>${data.portfolio}</span>
+    </div>
+</div>
+
+<!-- Új csoport -->
+<div class="project-group">
+    <div class="project-info">
+        <label>State:</label>
+        <span>${data.state}</span>
+    </div>
+    <div class="project-info">
+        <label>Phase:</label>
+        <span>${data.phase}</span>
+    </div>
+    <div class="project-info">
+        <label>% Complete:</label>
+        <span>${data.percentComplete}</span>
+    </div>
+</div>
+
+<!-- Új csoport -->
+<div class="project-group">
+    <div class="project-info">
+        <label>Approved Start Date:</label>
+        <span>${data.approvedStartDate}</span>
+    </div>
+    <div class="project-info">
+        <label>Approved End Date:</label>
+        <span>${data.approvedEndDate}</span>
+    </div>
+    <div class="project-info">
+        <label>Planned Cost:</label>
+        <span>${data.plannedCost}</span>
+    </div>
+</div>
+
+<!-- Új csoport -->
+<div class="project-group">
+    <div class="project-info">
+        <label>Planned Start Date:</label>
+        <span>${data.plannedStartDate}</span>
+    </div>
+    <div class="project-info">
+        <label>Planned End Date:</label>
+        <span>${data.plannedEndDate}</span>
+    </div>
+    <div class="project-info">
+        <label>Actual Cost:</label>
+        <span>${data.actualCost}</span>
+    </div>
+</div>
+
+<!-- Új csoport -->
+<div class="project-group">
+    <div class="project-info">
+        <label>Actual Start Date:</label>
+        <span>${data.actualStartDate}</span>
+    </div>
+    <div class="project-info">
+        <label>Actual End Date:</label>
+        <span>${data.actualEndDate}</span>
+    </div>
+</div>
+
+</j:jelly>]]></html>
+        <name>Abris test UI page4</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 12:35:32</sys_created_on>
+        <sys_id>42d02ed64724021075dbcbb9316d4347</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Abris test UI page4</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_ui_page_42d02ed64724021075dbcbb9316d4347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 13:32:27</sys_updated_on>
+    </sys_ui_page>
+</record_update>

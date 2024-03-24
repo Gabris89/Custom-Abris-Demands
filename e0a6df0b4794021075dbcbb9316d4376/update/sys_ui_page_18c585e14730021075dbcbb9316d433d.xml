@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1143687_valami_Abris test UI page16.do</endpoint>
+        <html><![CDATA[<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+  <g:evaluate jelly="true" object="true" var="jvar_jsonObj">
+    // Tömb létrehozása az adatok tárolásához
+    var projectChangeRequestList = [];
+
+    // Lekérdezés a projekt státuszokhoz
+    var grProject = new GlideRecord('pm_project');
+    grProject.addQuery('sys_id', '23d8ff0847e8021075dbcbb9316d4314');
+    grProject.query();
+
+    if (grProject.next()) {
+      var prSysId = grProject.getValue('sys_id');
+
+      // Projekt issue-k lekérdezése
+      var grProjectChangeRequests = new GlideRecord('project_change_request');
+      grProjectChangeRequests.addQuery('original_parent', prSysId);
+      grProjectChangeRequests.query();
+
+      // Issuek bejárása és adatok betöltése a tömbbe
+      while (grProjectChangeRequests.next()) {
+        var ChangeRequestObject = {
+          'changeRequestNumber': grProjectChangeRequests.getValue('number'),
+		  'changeRequestSysID': grProjectChangeRequests.getValue('sys_id'),
+		  'changeRequestShortDesc': grProjectChangeRequests.getValue('short_description'),
+          'changeRequestPriority': grProjectChangeRequests.getDisplayValue('priority'),
+		  'changeRequestCategory': grProjectChangeRequests.getDisplayValue('category'),
+		  'changeRequestApproval': grProjectChangeRequests.getDisplayValue('approval'),
+		  'changeRequestState': grProjectChangeRequests.getDisplayValue('state'),
+		  'changeRequestAssignedTo': grProjectChangeRequests.getDisplayValue('assigned_to'),
+		  'changeRequestDueDate': grProjectChangeRequests.getValue('due_date').substring(0,10)
+		  
+
+        };
+
+        projectChangeRequestList.push(ChangeRequestObject);
+		projectChangeRequestList;
+      }
+    }
+
+  </g:evaluate>
+
+   <style>
+    table {
+        border-color: black;
+		border-width: 15px;
+
+	}
+    th {
+      padding: 20px; /* További hely hozzáadása a header cellákhoz */
+	  text-align: center;
+    }
+    td {
+      width: 30px;
+      height: 30px;
+	  text-align:center;
+    }
+  </style>
+
+  <table border="2">
+    <tr>
+      <th style="padding: 10px; width:150px;">Change Request Number</th>
+	  <th style="padding: 10px; width:150px;">Short Description</th>
+      <th style="padding: 10px; width:150px;">Priority</th>
+	  <th style="padding: 10px; width:150px;">Category</th>
+	  <th style="padding: 10px; width:150px;">Approval</th>
+	  <th style="padding: 10px; width:150px;">State</th>
+      <th style="padding: 10px; width:150px;">Assigned To</th>
+	  <th style="padding: 10px; width:150px;">Due Date</th>
+      
+
+    </tr>
+
+    <j:forEach var="jvar_json" items="${jvar_jsonObj}">
+      <tr>
+<td>
+    <a href="https://dev193245.service-now.com/nav_to.do?uri=project_change_request.do?sys_id=${jvar_json.changeRequestSysID}">
+        ${jvar_json.changeRequestNumber}
+    </a>
+</td>
+		<td style="text-align:left; padding-left: 10px;">${jvar_json.changeRequestShortDesc}</td>
+        <td>${jvar_json.changeRequestPriority}</td>
+        <td>${jvar_json.changeRequestCategory}</td>
+        <td>${jvar_json.changeRequestApproval}</td>
+		<td>${jvar_json.changeRequestState}</td>
+		<td>${jvar_json.changeRequestAssignedTo}</td>
+		<td>${jvar_json.changeRequestDueDate}</td>
+      </tr>
+    </j:forEach>
+  </table>
+</j:jelly>]]></html>
+        <name>Abris test UI page16</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-07 08:10:45</sys_created_on>
+        <sys_id>18c585e14730021075dbcbb9316d433d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Abris test UI page16</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_ui_page_18c585e14730021075dbcbb9316d433d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-07 08:36:56</sys_updated_on>
+    </sys_ui_page>
+</record_update>

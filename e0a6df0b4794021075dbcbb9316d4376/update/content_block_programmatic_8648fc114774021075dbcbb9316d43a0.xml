@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_programmatic">
+    <content_block_programmatic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Project Weekly Status</name>
+        <programmatic_content><![CDATA[<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+  <g:evaluate jelly="true" object="true" var="jvar_jsonObj">
+    // Tömb létrehozása az adatok tárolásához
+    var projectStatusList = [];
+
+    // Lekérdezés a projekt státuszokhoz
+    var grProject = new GlideRecord('pm_project');
+    grProject.addQuery('sys_id', '23d8ff0847e8021075dbcbb9316d4314');
+    grProject.query();
+
+    if (grProject.next()) {
+      var prSysId = grProject.getValue('sys_id');
+
+      // Projekt státuszok lekérdezése
+      var grProjectStatus = new GlideRecord('project_status');
+      grProjectStatus.addQuery('project', prSysId);
+      grProjectStatus.query();
+
+      // Státuszok bejárása és adatok betöltése a tömbbe
+      while (grProjectStatus.next()) {
+        var statusObject = {
+		  'statusReportSysID' : grProjectStatus.getValue('sys_id'),
+          'statusReportNumber': grProjectStatus.getValue('number'),
+          'statusDate': grProjectStatus.getValue('as_on'),
+          'overallHealth': grProjectStatus.getValue('overall_health'),
+          'scope': grProjectStatus.getValue('scope'),
+          'resources': grProjectStatus.getValue('resources'),
+          'schedule': grProjectStatus.getValue('schedule'),
+          'cost': grProjectStatus.getValue('cost')
+        };
+
+        projectStatusList.push(statusObject);
+		projectStatusList;
+      }
+    }
+
+  </g:evaluate>
+
+   <style>
+    table {
+        border-color: white;
+		border-width: 10px;
+
+	}
+    th {
+      padding: 10px; /* További hely hozzáadása a header cellákhoz */
+	  text-align: center;
+    }
+    td[colored="true"] {
+      width: 30px;
+      height: 30px;
+    }
+  </style>
+
+  <table border="1" id="info">
+    <tr>
+      <th style="padding: 10px; width:150px; text-align: left;">Status Report Number</th>
+      <th style="padding: 10px; width:150px;">Status Date</th>
+      <th style="padding: 10px; width:100px;">Overall Health</th>
+      <th style="padding: 10px; width:100px;">Scope</th>
+      <th style="padding: 10px; width:100px;">Resources</th>
+      <th style="padding: 10px; width:100px;">Schedule</th>
+      <th style="padding: 10px; width:100px;">Cost</th>
+    </tr>
+
+    <j:forEach var="jvar_json" items="${jvar_jsonObj}">
+      <tr>
+        <td style="width:150px; text-align: center;">
+          <a href="https://dev193245.service-now.com/nav_to.do?uri=project_status.do?sys_id=${jvar_json.statusReportSysID}">${jvar_json.statusReportNumber}</a>
+        </td>
+        <td style="width:150px; text-align: center;">${jvar_json.statusDate}</td>
+        <td style="width:100px;height:30px;">${jvar_json.overallHealth}</td>
+        <td style="width:100px;height:30px;">${jvar_json.scope}</td>
+        <td style="width:100px;height:30px;">${jvar_json.resources}</td>
+        <td style="width:100px;height:30px;">${jvar_json.schedule}</td>
+        <td style="width:100px;height:30px;">${jvar_json.cost}</td>
+      </tr>
+    </j:forEach>
+  </table>
+
+<script>
+    var t = document.getElementById('info');
+    if (t) {
+        Array.from(t.rows).forEach((tr, rowIdx) => {
+            Array.from(tr.cells).forEach((cell, cellIdx) => {
+                var value = cell.innerText.trim(); // Eltávolítjuk a felesleges szóközöket
+                var color = getColor(value); // Meghívjuk a getColor() funkciót
+                cell.style.backgroundColor = color; // Beállítjuk a háttérszínt
+               if (color !== '') {
+                    cell.style.color = 'transparent'; // Átlátszóvá tesszük a cella tartalmát, ha a háttérszín nem átlátszó
+                } else {
+                    cell.style.color = ''; // Visszaállítjuk a normál szövegszínt, ha a háttérszín átlátszó
+                }
+            });
+        });
+    }
+	   // Függvény a cella színének meghatározásához az érték alapján
+    function getColor(value) {
+      switch (value) {
+        case 'red':
+          return 'red';
+        case 'yellow':
+          return 'yellow';
+        case 'green':
+          return 'green';
+        default:
+          return ''; // Alapértelmezett háttérszín
+      }
+    }
+</script>
+</j:jelly>]]></programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 12:34:14</sys_created_on>
+        <sys_id>8648fc114774021075dbcbb9316d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project Weekly Status</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>content_block_programmatic_8648fc114774021075dbcbb9316d43a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 12:34:14</sys_updated_on>
+        <two_phase>false</two_phase>
+    </content_block_programmatic>
+</record_update>

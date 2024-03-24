@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1143687_valami_Abris test UI page3.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+    <g:include page="doctype.jsp"/>
+    <g:evaluate>
+        var gr = new GlideRecordSecure('pm_project');
+        gr.addQuery('sys_id', '23d8ff0847e8021075dbcbb9316d4314'); // Projekt sys_id feltétele
+        gr.query();
+
+        var projectName = '';
+        var projectManager = '';
+        var portfolio = '';
+        var approvedStartDate = '';
+        var approvedEndDate = '';
+        var plannedStartDate = '';
+        var plannedEndDate = '';
+		var state = '';
+		var phase = '';
+		var percentComplete = '';
+		var actualCost = '';
+		var actualStartDate = '';
+		var actualEndDate = '';
+
+
+        if (gr.next()) {
+            projectName = gr.getValue('short_description');
+            projectManager = gr.getDisplayValue('project_manager');
+            portfolio = gr.getDisplayValue('primary_portfolio');
+            approvedStartDate = gr.getDisplayValue('approved_start_date');
+            approvedEndDate = gr.getDisplayValue('approved_end_date');
+            plannedStartDate = gr.getDisplayValue('start_date');
+            plannedEndDate = gr.getDisplayValue('end_date');
+			state = gr.getDisplayValue('state');
+			phase = gr.getDisplayValue('phase');
+			percentComplete = gr.getValue('percent_complete');
+			actualCost = gr.getDisplayValue('work_cost');
+			actualStartDate = gr.getDisplayValue('work_start');
+			actualEndDate = gr.getDisplayValue('work_end');
+        }
+    </g:evaluate>
+
+    <table>
+        <tr>
+            <td>
+                <h2>Project Status Overview</h2>
+                <div class="project-group">
+                    <div class="project-info">
+                        <label>Project Name:</label>
+                        <span>${projectName}</span>
+                    </div>
+                    <div class="project-info">
+                        <label>Project Manager:</label>
+                        <span>${projectManager}</span>
+                    </div>
+                    <div class="project-info">
+                        <label>Portfolio:</label>
+                        <span>${portfolio}</span>
+                    </div>
+                </div>
+                <div class="project-group">
+                    <div class="project-info">
+                        <label>Approved Start Date:</label>
+                        <span>${approvedStartDate}</span>
+                    </div>
+                    <div class="project-info">
+                        <label>Approved End Date:</label>
+                        <span>${approvedEndDate}</span>
+                    </div>
+                    <div class="project-info">
+                        <label>Planned Start Date:</label>
+                        <span>${plannedStartDate}</span>
+                    </div>
+                    <div class="project-info">
+                        <label>Planned End Date:</label>
+                        <span>${plannedEndDate}</span>
+                    </div>
+                </div>
+                <!-- További project-group elemek ide -->
+				<div class="project-group">
+                    <div class="project-info">
+                        <label>State:</label>
+                        <span>${state}</span>
+                    </div>
+                    <div class="project-info">
+                        <label>Phase:</label>
+                        <span>${phase}</span>
+                    </div>
+                    <div class="project-info">
+                        <label>Percent Complete:</label>
+                        <span>${percentComplete}</span>
+                    </div>
+                </div>
+				<!-- További project-group elemek ide -->
+				<div class="project-group">
+                    <div class="project-info">
+                        <label>Actual Cost:</label>
+                        <span>${actualCost}</span>
+                    </div>
+                    <div class="project-info">
+                        <label>Actual Start Date:</label>
+                        <span>${actualStartDate}</span>
+                    </div>
+                    <div class="project-info">
+                        <label>Actual End Date:</label>
+                        <span>${actualEndDate}</span>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</j:jelly>]]></html>
+        <name>Abris test UI page3</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 08:46:14</sys_created_on>
+        <sys_id>fcfd291e4720021075dbcbb9316d43ae</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Abris test UI page3</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_ui_page_fcfd291e4720021075dbcbb9316d43ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 12:24:20</sys_updated_on>
+    </sys_ui_page>
+</record_update>

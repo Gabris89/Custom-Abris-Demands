@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="New Tab 4">6344e20c4724021075dbcbb9316d43e6</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2024-02-22 02:34:27">5970e14947e0021075dbcbb9316d43bb</portal_widget>
+        <posx>0</posx>
+        <posy>26</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 10:34:27</sys_created_on>
+        <sys_id>5970e14947e0021075dbcbb9316d43bd</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>6344e20c4724021075dbcbb9316d43e6</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_5970e14947e0021075dbcbb9316d43bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 08:55:06</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</application>
+        <file_path/>
+        <instance_id>eea597951bc27dd852a243f4bd4bcbb6</instance_id>
+        <instance_name>dev193245</instance_name>
+        <name>sys_grid_canvas_pane_5970e14947e0021075dbcbb9316d43bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="New Tab 4">6344e20c4724021075dbcbb9316d43e6</grid_canvas><height>10</height><portal_widget display_value="Created 2024-02-22 02:34:27">5970e14947e0021075dbcbb9316d43bb</portal_widget><posx>0</posx><posy>26</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-22 10:34:27</sys_created_on><sys_id>5970e14947e0021075dbcbb9316d43bd</sys_id><sys_mod_count>31</sys_mod_count><sys_name>6344e20c4724021075dbcbb9316d43e6</sys_name><sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package><sys_policy/><sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope><sys_update_name>sys_grid_canvas_pane_5970e14947e0021075dbcbb9316d43bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 08:55:06</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>1915711088</payload_hash>
+        <record_name>6344e20c4724021075dbcbb9316d43e6</record_name>
+        <reverted_from/>
+        <source>a4a6df0b4794021075dbcbb9316d437a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 08:55:06</sys_created_on>
+        <sys_id>5110bdde4720021075dbcbb9316d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18de49ffc790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 08:55:06</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>1910bdde9b2002106d27a5353b972375</update_guid>
+        <update_guid_history>1910bdde9b2002106d27a5353b972375:1915711088,77007ddee8200210983656470a8a4daa:-1350604781,0b007dde92200210d5354c658716612f:1915711088,ec0071de492002106e0e79d5f6e690be:904899028,d7ff6d9e91200210d0e232f7d0c062c3:1933550455,218f2d9e4820021057b41984687c6c7f:904899028,324f6d9e92200210345492f0e29ad289:219131410,b27ee95ea92002103f2f118826591c50:904899028,d74ee15e2e2002108299b833e066190c:-105913032,073a6dd6c12002102d4563221e61b460:1933550455,afb9a1d64d20021045e522b1fc839039:-321953354,46b961d60d200210c952b7450d5e529b:1933550455,d3a921d64520021020ed686682549433:-105913032,e0d1679d32a4021023b9f81da2da3959:1933550455,95dcea5df7a00210dde302db26913643:-321953354,ba92eaddaa6002104c367737928e7871:1717510133,d5b1269d6c600210bbf15dc9e118ec69:-321953354,71a1e29da46002101166f635af30e639:1717510133,9691629d496002101460e665e578bfc6:-321953354,0681ee5d24600210aeed5b93736290e4:1717510133,c581ee5dc960021063e581a671629766:-321953354,a9f0e25d1a60021086dae8ae4ddddd4a:1717510133,e4c06e1d8d6002103f0b5f3f79ff67b8:1933550455,c5b02e1d636002106eeb6a9cb4ce2564:-321953354,1250261df260021053c23fa7e3e4b17a:1933550455,63005219ee2002108bcde09cce85250a:-321953354,c55f4e951e2002105b89ed733fbc8f3e:1933550455,b4098e8d55a40210a25260feaa7e09a7:-321953354,a194c64943a40210fcec3ab4ba06e35a:1717510133,216d350102a40210684dd21d320e2089:-321953354,8390218949e00210355ac3be6860b8c9:1717510133,e570e149cae002108acb6bf27543e2bf:-1325700666</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 08:55:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>2dc2b5941ba74db0b070d685a67e7024</sys_id>
+        <sys_metadata>5970e14947e0021075dbcbb9316d43bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6344e20c4724021075dbcbb9316d43e6</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_scope_delete display_value="">031f33624760400c8e98df96c3e22629</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_5970e14947e0021075dbcbb9316d43bd</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_5970e14947e0021075dbcbb9316d43bd">5110bdde4720021075dbcbb9316d4376</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 08:55:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

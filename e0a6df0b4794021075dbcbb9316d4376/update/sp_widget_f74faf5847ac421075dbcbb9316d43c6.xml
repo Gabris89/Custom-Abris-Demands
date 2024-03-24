@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $log /*, StatusReportService*/) {
+  // widget controller
+  var c = this;
+  /*updateDateLabels();
+  function updateDateLabels() {
+	for (var x in c.data.dates) {	
+		c.data.dates[x] = moment(c.data.dates[x]).format('ll').split(',')[0];
+	}
+  }
+  function clearStatues() {
+	$scope.data.statuses.overall = [];
+	$scope.data.statuses.cost = [];
+	$scope.data.statuses.schedule = [];
+	$scope.data.statuses.scope = [];
+	$scope.data.statuses.resource = [];
+	$scope.data.dates = [];
+  }
+	
+  $scope.getStatusesFromLastReport = function(statusReportId) {
+	  StatusReportService.getStatusesFromLastReport(statusReportId, $scope.data.limit).then(function(data) {
+		  $log.log(data);
+		  clearStatues();
+		  for ( var i=0; i < data.data.length; i++ ) {
+			$scope.data.statuses.overall.push({icon: getIcon(data.data[i].overall)});
+			$scope.data.statuses.cost.push({icon: getIcon(data.data[i].cost)});		
+			$scope.data.statuses.resource.push({icon: getIcon(data.data[i].resource)});
+			$scope.data.statuses.schedule.push({icon: getIcon(data.data[i].schedule)});
+			$scope.data.statuses.scope.push({icon: getIcon(data.data[i].scope)});
+			$scope.data.dates.push(data.data[i].date);
+		  }
+		  updateDateLabels();
+	  });
+  };
+	
+  $scope.$on('status_date_selected', function(event, data) { 
+	  $log.log("status_date_selected event received: " + data);
+	  $scope.getStatusesFromLastReport(data);
+  });
+
+	function getIcon(value) {
+		if ( value == 'green' )
+			return 'fa-check-circle';
+		else if ( value == 'yellow' )
+			return 'fa-minus-circle';
+		else
+			return 'fa-exclamation-circle';
+	}*/
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.icon-success-circle {&#13;
+  color: $brand-success;&#13;
+}&#13;
+.icon-not-started-circle{&#13;
+  color: $brand-warning;&#13;
+}&#13;
+&#13;
+.icon-warning-circle {&#13;
+  color: $brand-danger;&#13;
+}&#13;
+&#13;
+&#13;
+.panel-heading {&#13;
+  position: relative;&#13;
+}&#13;
+&#13;
+.panel-body {&#13;
+  padding-top: 5px;&#13;
+  padding-bottom: 0px;&#13;
+}&#13;
+&#13;
+.status-hr {&#13;
+  /*padding-top: 2px;*/&#13;
+  text-align: center;&#13;
+  font-size: 14px;&#13;
+  line-height: 2.8;&#13;
+}&#13;
+&#13;
+.status-column {&#13;
+  padding: 5px;&#13;
+  text-align: center;&#13;
+&#13;
+  i {&#13;
+    padding-left: 3px;&#13;
+  }&#13;
+&#13;
+}&#13;
+&#13;
+.service {&#13;
+&#13;
+  .fa {&#13;
+    margin-top: 10px;&#13;
+  	margin-bottom: 10px;&#13;
+    font-size: 18px;    &#13;
+    &#13;
+    .tooltiptext {&#13;
+        visibility: hidden;&#13;
+        width: 450px;&#13;
+        background-color: $gray-base;&#13;
+        color: $label-color;&#13;
+        text-align: left;&#13;
+        border-radius: 6px;&#13;
+        padding: 5px 0;&#13;
+        position: absolute;&#13;
+        z-index: 1;&#13;
+        font-size: 14px;&#13;
+        overflow: hidden;&#13;
+    }&#13;
+  }&#13;
+}&#13;
+&#13;
+.tooltiptext {&#13;
+    visibility: hidden;&#13;
+    width: 200px;&#13;
+    background-color: $gray-base;&#13;
+    color: $label-color;&#13;
+    text-align: left;&#13;
+    border-radius: 6px;&#13;
+    padding: 5px 0;&#13;
+    position: absolute;&#13;
+    z-index: 1;&#13;
+    font-size: 14px;&#13;
+    overflow: visible;&#13;
+}&#13;
+&#13;
+.fa:hover .tooltiptext {&#13;
+    visibility: visible;&#13;
+}&#13;
+&#13;
+.margin_override {&#13;
+  margin-left: -30em; &#13;
+}&#13;
+.status-hr, .status-header {&#13;
+  padding: 5px;&#13;
+}&#13;
+.panel-heading, .panel-heading .panel-heading-col, .panel-body {&#13;
+  padding: 5px !important;&#13;
+}&#13;
+.panel-heading .row, .service {&#13;
+  margin-right: 0;&#13;
+  margin-left: 0;&#13;
+}&#13;
+.panel-title {&#13;
+  line-height: 1.4&#13;
+}&#13;
+.icon {&#13;
+  font-size: 15px;&#13;
+  margin: 5px 0;&#13;
+  display: inline-block;&#13;
+}&#13;
+.comment-tooltip .tooltip-inner {&#13;
+  max-width:750px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Copy of Project Weekly Status</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	// populate the 'data' object
+	// e.g., data.table = $sp.getValue('table');
+	
+	function getIcon(value) {
+		if ( value == 'green' )
+			return 'icon-success-circle';
+		else if ( value == 'yellow' )
+			return 'icon-not-started-circle';
+		else
+			return 'icon-warning-circle';
+	}
+	
+	var s = new PmProjectStatusReport();
+	data.limit = 11;
+	var endDate = $sp.getParameter('sysparm_status_date') || (new GlideDate()).getDisplayValue();
+	
+	var statuses = s.getStatuses($sp.getParameter('sysparm_sys_id'), endDate, data.limit);
+
+	data.categories = [];
+	data.categories.push({label: gs.getMessage('Overall'), name: 'overall'});
+	data.categories.push({label: gs.getMessage('Schedule'), name: 'schedule'});
+	data.categories.push({label: gs.getMessage('Cost'), name: 'cost'});
+	data.categories.push({label: gs.getMessage('Resources'), name: 'resources'});
+	data.categories.push({label: gs.getMessage('Scope'), name: 'scope'});
+		
+	data.statuses = {};
+	data.statuses.overall = [];
+	data.statuses.cost = [];
+	data.statuses.schedule = [];
+	data.statuses.scope = [];
+	data.statuses.resources = [];
+	data.dates = [];
+	
+	for ( var i=0; i < statuses.length; i++ ) {
+		data.statuses.overall.push({icon: getIcon(statuses[i].overall), comment: statuses[i].comments});
+		data.statuses.cost.push({icon: getIcon(statuses[i].cost), comment: statuses[i].cost_comments});		
+		data.statuses.resources.push({icon: getIcon(statuses[i].resources), comment: statuses[i].resources_comments});
+		data.statuses.schedule.push({icon: getIcon(statuses[i].schedule), comment: statuses[i].schedule_comments});
+		data.statuses.scope.push({icon: getIcon(statuses[i].scope), comment: statuses[i].scope_comments});
+		data.dates.push(statuses[i].date);
+	}
+	//gs.info("cost_comment: " + (new JSON()).encode(data.statuses.cost));
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 13:03:07</sys_created_on>
+        <sys_id>f74faf5847ac421075dbcbb9316d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Project Weekly Status</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sp_widget_f74faf5847ac421075dbcbb9316d43c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 13:03:07</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-{{::c.options.color}} b">
+  <div class="panel-heading">   
+    <div class="hidden-xs row">
+      <span class="col-sm-3 panel-heading-col">
+        <div class="panel-title">${Status History}</div>
+      </span>
+      <span ng-repeat="date in data.dates | limitTo: 9 track by $index" class="col-sm-1 status-hr panel-title" ng-bind="date"></span>
+    </div>
+  </div>
+  
+  <div class="hidden-xs panel-body" ng-repeat="category in c.data.categories">
+    <div class="row service">
+		<div class="col-sm-3 bold status-header">	
+              <h5 ng-bind="::category.label"></h5>  
+	    </div>
+      <!--
+      <div ng-repeat="n in [0,1,2,3,4,5,6,7,8,9,10] track by $index" class="col-sm-1 status-column">
+        <span class="fa" ng-class="c.data.statuses[category.name][n].icon">
+	       <span class="tooltiptext" ng-if="c.data.statuses[category.name][n].comment && n<=5" ng-bind-html="c.data.statuses[category.name][n].comment"></span>
+          <span class="tooltiptext margin_override" ng-if="c.data.statuses[category.name][n].comment && n>5" ng-bind-html="c.data.statuses[category.name][n].comment"></span>
+        </span>    
+      </div>
+	-->
+      <div ng-repeat="status in c.data.statuses[category.name] | limitTo: 9 track by $index" class="col-sm-1 status-column">
+        <span class="icon" ng-class="status.icon" tooltip-class="comment-tooltip" tooltip-append-to-body="true" uib-tooltip-html="'{{status.comment}}'" role="tooltip">
+        </span>    
+      </div>
+    </div>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

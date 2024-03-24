@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d328d3cb4794021075dbcbb9316d436a" sys_domain="global" table="x_1143687_valami_valami" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b28d3cb4794021075dbcbb9316d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1143687_valami_valami" name="x_1143687_valami_valami" sys_domain="global" view="01b4c9e6b73233001326c518ee11a95e">d328d3cb4794021075dbcbb9316d436a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1143687_valami_valami" sys_domain="global" view="01b4c9e6b73233001326c518ee11a95e">1f28d3cb4794021075dbcbb9316d4375</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b28d3cb4794021075dbcbb9316d4375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1143687_valami_valami" name="x_1143687_valami_valami" sys_domain="global" view="01b4c9e6b73233001326c518ee11a95e">d328d3cb4794021075dbcbb9316d436a</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_1143687_valami_valami" sys_domain="global" view="01b4c9e6b73233001326c518ee11a95e">5f28d3cb4794021075dbcbb9316d436c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1143687_valami_valami</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d328d3cb4794021075dbcbb9316d436a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1143687_valami_valami</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d328d3cb4794021075dbcbb9316d436a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Demand Core" name="demand_core">01b4c9e6b73233001326c518ee11a95e</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

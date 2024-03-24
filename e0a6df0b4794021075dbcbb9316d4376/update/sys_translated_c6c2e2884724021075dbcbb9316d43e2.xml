@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>Demands by registered location</label>
+        <language>en</language>
+        <name>pa_tabs</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 12:50:17</sys_created_on>
+        <sys_id>c6c2e2884724021075dbcbb9316d43e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Demands by registered location</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_translated_c6c2e2884724021075dbcbb9316d43e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 12:53:48</sys_updated_on>
+        <value>0ac22e484724021075dbcbb9316d43f6Demands by registered location</value>
+    </sys_translated>
+</record_update>

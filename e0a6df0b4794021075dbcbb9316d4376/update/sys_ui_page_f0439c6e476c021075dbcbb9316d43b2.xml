@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1143687_valami_Abris test UI page6.do</endpoint>
+        <html><![CDATA[<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+  <g:evaluate jelly="true" object="true" var="jvar_jsonObj">
+    // Tömb létrehozása az adatok tárolásához
+    var projectStatusList = [];
+
+    // Lekérdezés a projekt státuszokhoz
+    var grProject = new GlideRecord('pm_project');
+    grProject.addQuery('sys_id', '23d8ff0847e8021075dbcbb9316d4314');
+    grProject.query();
+
+    if (grProject.next()) {
+      var prSysId = grProject.getValue('sys_id');
+
+      // Projekt státuszok lekérdezése
+      var grProjectStatus = new GlideRecord('project_status');
+      grProjectStatus.addQuery('project', prSysId);
+      grProjectStatus.query();
+
+      // Státuszok bejárása és adatok betöltése a tömbbe
+      while (grProjectStatus.next()) {
+        var statusObject = {
+          'statusReportNumber': grProjectStatus.getValue('number'),
+          'statusDate': grProjectStatus.getValue('as_on'),
+          'overallHealth': grProjectStatus.getValue('overall_health'),
+          'scope': grProjectStatus.getValue('scope'),
+          'resources': grProjectStatus.getValue('resources'),
+          'schedule': grProjectStatus.getValue('schedule'),
+          'cost': grProjectStatus.getValue('cost')
+        };
+
+        projectStatusList.push(statusObject);
+			projectStatusList;
+      }
+    }
+
+  </g:evaluate>
+
+<style>
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: black; /* Betűszín fekete */
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px; /* Változtasd meg a kívánt szélességre */
+}
+
+.card-header {
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+  color: black; /* Betűszín fekete */
+}
+
+.card-body {
+  padding: 10px;
+  color: black; /* Betűszín fekete */
+}
+</style>
+
+  <!-- Kártya formátumú megjelenítés -->
+<div class="card-container">
+    <j:forEach var="jvar_json" items="${jvar_jsonObj}">
+        <div class="card">
+            <div class="card-header">
+                <h3>Status Report Number: ${jvar_json.statusReportNumber}</h3>
+                <p>Status Date: ${jvar_json.statusDate}</p>
+            </div>
+            <div class="card-body">
+                <p>Overall Health: ${jvar_json.overallHealth}</p>
+                <p>Scope: ${jvar_json.scope}</p>
+                <p>Resources: ${jvar_json.resources}</p>
+                <p>Schedule: ${jvar_json.schedule}</p>
+                <p>Cost: ${jvar_json.cost}</p>
+            </div>
+        </div>
+    </j:forEach>
+</div>
+</j:jelly>]]></html>
+        <name>Abris test UI page6</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 20:54:11</sys_created_on>
+        <sys_id>f0439c6e476c021075dbcbb9316d43b2</sys_id>
+        <sys_mod_count>95</sys_mod_count>
+        <sys_name>Abris test UI page6</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_ui_page_f0439c6e476c021075dbcbb9316d43b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 08:10:15</sys_updated_on>
+    </sys_ui_page>
+</record_update>

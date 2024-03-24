@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_static">
+    <content_block_static action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>prtst</name>
+        <static_content><![CDATA[<div>
+<div>&lt;?xml version&#61;&#34;1.0&#34; encoding&#61;&#34;utf-8&#34;?&gt;</div>
+<div>&lt;j:jelly xmlns:j&#61;&#34;jelly:core&#34; xmlns:g&#61;&#34;glide&#34;&gt;</div>
+<div>    &lt;g:evaluate&gt;</div>
+<div>        var projectStatusGr &#61; new GlideRecordSecure(&#39;project_status&#39;);</div>
+<div>        projectStatusGr.addQuery(&#39;number&#39;, &#39;PRJSTAT0010075&#39;);</div>
+<div>        projectStatusGr.query();</div>
+<br />
+<div>        var data &#61; {};</div>
+<div>        if (projectStatusGr.next()) {</div>
+<div>            data.executive_summary &#61; projectStatusGr.getValue(&#39;executive_summary&#39;);</div>
+<div>            data.last_week_achievements &#61; projectStatusGr.getValue(&#39;achievements_last_week&#39;);</div>
+<div>            data.key_activities_planned &#61; projectStatusGr.getValue(&#39;key_activities_next_week&#39;);</div>
+<div>        }</div>
+<div>    &lt;/g:evaluate&gt;</div>
+<br />
+<div>    &lt;style&gt;</div>
+<div>        .project-group {</div>
+<div>            margin-bottom: 20px;</div>
+<div>        }</div>
+<br />
+<div>        .project-info {</div>
+<div>            /* display: inline-block; Remove this line */</div>
+<div>            /* width: calc(33.33% - 10px); Remove this line */</div>
+<div>            margin-bottom: 10px; /* Add this line */</div>
+<div>        }</div>
+<br />
+<div>        .project-info label {</div>
+<div>            font-weight: bold;</div>
+<div>            display: block;</div>
+<div>        }</div>
+<div>    &lt;/style&gt;</div>
+<br />
+<div>    &lt;h2&gt;Overview&lt;/h2&gt;</div>
+<div>    &lt;div class&#61;&#34;project-group&#34;&gt;</div>
+<div>        &lt;div class&#61;&#34;project-info&#34;&gt;</div>
+<div>            &lt;label&gt;Executive Summary:&lt;/label&gt;</div>
+<div>            &lt;span&gt;${data.executive_summary}&lt;/span&gt;</div>
+<div>        &lt;/div&gt;</div>
+<div>        &lt;div class&#61;&#34;project-info&#34;&gt;</div>
+<div>            &lt;label&gt;Last Week&#39;s Achievements:&lt;/label&gt;</div>
+<div>            &lt;span&gt;${data.last_week_achievements}&lt;/span&gt;</div>
+<div>        &lt;/div&gt;</div>
+<div>        &lt;div class&#61;&#34;project-info&#34;&gt;</div>
+<div>            &lt;label&gt;Key Activities Planned:&lt;/label&gt;</div>
+<div>            &lt;span&gt;${data.key_activities_planned}&lt;/span&gt;</div>
+<div>        &lt;/div&gt;</div>
+<div>    &lt;/div&gt;</div>
+<br />
+<div>&lt;/j:jelly&gt;</div>
+</div>]]></static_content>
+        <sys_class_name>content_block_static</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 20:11:22</sys_created_on>
+        <sys_id>adcacca2476c021075dbcbb9316d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>prtst</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>content_block_static_adcacca2476c021075dbcbb9316d43d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 20:11:22</sys_updated_on>
+    </content_block_static>
+    <sys_translated_text action="delete_multiple" query="documentkey=adcacca2476c021075dbcbb9316d43d4"/>
+</record_update>

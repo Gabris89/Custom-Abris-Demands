@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_widgets">
+    <sys_widgets action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>ÁBRIS custom System UI widget</name>
+        <order>100</order>
+        <renderer/>
+        <renderer_type>javascript</renderer_type>
+        <roles>admin</roles>
+        <script><![CDATA[function sections() {
+    return {
+		'Test Widget': {'name': 'Abris test UI page4'}	
+    };
+}
+
+function render() {
+    var name = renderer.getPreferences().get("name");
+    return renderer.getRenderedPage(name);
+}
+
+function getEditLink() {
+    var uiPageName = renderer.getPreference('uiPageName');
+    return 'sys_ui_page.do?sysparm_query=' + encodeURIComponent('name=' + uiPageName);
+}
+
+
+]]></script>
+        <sys_class_name>sys_widgets</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 16:45:11</sys_created_on>
+        <sys_id>ed8ba17047a8021075dbcbb9316d4337</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>ÁBRIS custom System UI widget</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_widgets_ed8ba17047a8021075dbcbb9316d4337</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 13:47:53</sys_updated_on>
+        <top_level_category>false</top_level_category>
+    </sys_widgets>
+</record_update>

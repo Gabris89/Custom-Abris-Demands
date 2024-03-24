@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
+    <sp_ng_template action="DELETE">
+        <id>abris</id>
+        <sp_widget display_value="Ábris test">a535af5147e4021075dbcbb9316d43aa</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 14:55:36</sys_created_on>
+        <sys_id>00c5e7d147e4021075dbcbb9316d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>abris</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sp_ng_template_00c5e7d147e4021075dbcbb9316d4392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-23 14:55:36</sys_updated_on>
+        <template><![CDATA[<sn-record-picker default-query="active=true" search-fields="name,sys_id" table="incident"></sn-record-picker>
+<sn-record-preview table="incident"></sn-record-preview>]]></template>
+    </sp_ng_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</application>
+        <file_path/>
+        <instance_id>eea597951bc27dd852a243f4bd4bcbb6</instance_id>
+        <instance_name>dev193245</instance_name>
+        <name>sp_ng_template_00c5e7d147e4021075dbcbb9316d4392</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_ng_template"&gt;&lt;sp_ng_template action="INSERT_OR_UPDATE"&gt;&lt;id&gt;abris&lt;/id&gt;&lt;sp_widget display_value="Ábris test"&gt;a535af5147e4021075dbcbb9316d43aa&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_ng_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-23 14:55:36&lt;/sys_created_on&gt;&lt;sys_id&gt;00c5e7d147e4021075dbcbb9316d4392&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;abris&lt;/sys_name&gt;&lt;sys_package display_value="Custom Ábris Demand" source="x_1143687_valami"&gt;e0a6df0b4794021075dbcbb9316d4376&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Custom Ábris Demand"&gt;e0a6df0b4794021075dbcbb9316d4376&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_ng_template_00c5e7d147e4021075dbcbb9316d4392&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-23 14:55:36&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;sn-record-picker default-query="active=true" search-fields="name,sys_id" table="incident"&gt;&lt;/sn-record-picker&gt;
+&lt;sn-record-preview table="incident"&gt;&lt;/sn-record-preview&gt;]]&gt;&lt;/template&gt;&lt;/sp_ng_template&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2120126778</payload_hash>
+        <record_name>abris</record_name>
+        <reverted_from/>
+        <source>a4a6df0b4794021075dbcbb9316d437a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 14:55:36</sys_created_on>
+        <sys_id>f4d56bd147e4021075dbcbb9316d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dd676f4ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-23 14:55:36</sys_updated_on>
+        <type>Angular ng-template</type>
+        <update_guid>f8d56bd137e402106e7e8b1591a3455a</update_guid>
+        <update_guid_history>f8d56bd137e402106e7e8b1591a3455a:2120126778</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="abris">62f7679547e4021075dbcbb9316d4315</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 15:05:00</sys_created_on>
+        <sys_db_object display_value="" name="sp_ng_template">sp_ng_template</sys_db_object>
+        <sys_id>1a8cef795f644af1bbf433ccb4e79561</sys_id>
+        <sys_metadata>00c5e7d147e4021075dbcbb9316d4392</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>abris</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_scope_delete display_value="">031f33624760400c8e98df96c3e22629</sys_scope_delete>
+        <sys_update_name>sp_ng_template_00c5e7d147e4021075dbcbb9316d4392</sys_update_name>
+        <sys_update_version display_value="sp_ng_template_00c5e7d147e4021075dbcbb9316d4392">f4d56bd147e4021075dbcbb9316d435b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-23 15:05:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

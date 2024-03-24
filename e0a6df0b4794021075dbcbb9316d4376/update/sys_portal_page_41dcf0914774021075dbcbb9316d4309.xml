@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2024-03-24 08:41:42">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 12:52:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41dcf0914774021075dbcbb9316d4309</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Project Status Report with OOTB tools</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_portal_page_41dcf0914774021075dbcbb9316d4309</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 12:56:20</sys_updated_on>
+        <title>Project Status Report with OOTB tools</title>
+        <user/>
+        <view>new_tab_6</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="Project Status Report with OOTB tools">41dcf0914774021075dbcbb9316d4309</page>
+                <summary>Ábris Project - Status history</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2024-03-06 13:11:33</sys_created_on>
+                <sys_id>21114d1d4774021075dbcbb9316d43ea</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2024-03-06 13:11:33</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:33">21114d1d4774021075dbcbb9316d43ea</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:33</sys_created_on>
+                        <sys_id>21114d1d4774021075dbcbb9316d43eb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:33</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:33">21114d1d4774021075dbcbb9316d43ea</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:33</sys_created_on>
+                        <sys_id>6d114d1d4774021075dbcbb9316d43ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:33</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:33">21114d1d4774021075dbcbb9316d43ea</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:33</sys_created_on>
+                        <sys_id>a1114d1d4774021075dbcbb9316d43ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:33</sys_updated_on>
+                        <value>4db5935c472c421075dbcbb9316d43da</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:33">21114d1d4774021075dbcbb9316d43ea</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:33</sys_created_on>
+                        <sys_id>a5114d1d4774021075dbcbb9316d43eb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:33</sys_updated_on>
+                        <value>Ábris Project - Status history</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:33">21114d1d4774021075dbcbb9316d43ea</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:33</sys_created_on>
+                        <sys_id>a9114d1d4774021075dbcbb9316d43ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:33</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:33">21114d1d4774021075dbcbb9316d43ea</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:33</sys_created_on>
+                        <sys_id>e1114d1d4774021075dbcbb9316d43eb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:33</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:33">21114d1d4774021075dbcbb9316d43ea</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:33</sys_created_on>
+                        <sys_id>e5114d1d4774021075dbcbb9316d43ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:33</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:33">21114d1d4774021075dbcbb9316d43ea</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:33</sys_created_on>
+                        <sys_id>e9114d1d4774021075dbcbb9316d43eb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:33</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="Project Status Report with OOTB tools">41dcf0914774021075dbcbb9316d4309</page>
+                <summary>Ábris Project - Request Change</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2024-03-06 13:10:49</sys_created_on>
+                <sys_id>36e0491d4774021075dbcbb9316d4388</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2024-03-06 13:10:49</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2024-03-06 05:10:49">36e0491d4774021075dbcbb9316d4388</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:10:49</sys_created_on>
+                        <sys_id>36e0491d4774021075dbcbb9316d4389</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:10:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2024-03-06 05:10:49">36e0491d4774021075dbcbb9316d4388</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:10:49</sys_created_on>
+                        <sys_id>72e0491d4774021075dbcbb9316d4389</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:10:49</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2024-03-06 05:10:49">36e0491d4774021075dbcbb9316d4388</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:10:49</sys_created_on>
+                        <sys_id>b6e0491d4774021075dbcbb9316d4388</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:10:49</sys_updated_on>
+                        <value>ea9a9c6447a0821075dbcbb9316d432a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2024-03-06 05:10:49">36e0491d4774021075dbcbb9316d4388</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:10:49</sys_created_on>
+                        <sys_id>bae0491d4774021075dbcbb9316d4389</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:10:49</sys_updated_on>
+                        <value>Ábris Project - Request Change</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2024-03-06 05:10:49">36e0491d4774021075dbcbb9316d4388</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:10:49</sys_created_on>
+                        <sys_id>bee0491d4774021075dbcbb9316d4388</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:10:49</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2024-03-06 05:10:49">36e0491d4774021075dbcbb9316d4388</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:10:49</sys_created_on>
+                        <sys_id>f6e0491d4774021075dbcbb9316d4389</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:10:49</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2024-03-06 05:10:49">36e0491d4774021075dbcbb9316d4388</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:10:49</sys_created_on>
+                        <sys_id>fae0491d4774021075dbcbb9316d4388</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:10:49</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2024-03-06 05:10:49">36e0491d4774021075dbcbb9316d4388</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:10:49</sys_created_on>
+                        <sys_id>fee0491d4774021075dbcbb9316d4389</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:10:49</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="Project Status Report with OOTB tools">41dcf0914774021075dbcbb9316d4309</page>
+                <summary>Ábris project - Risks</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2024-03-06 13:11:12</sys_created_on>
+                <sys_id>5401c91d4774021075dbcbb9316d433b</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2024-03-06 13:11:12</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:12">5401c91d4774021075dbcbb9316d433b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:12</sys_created_on>
+                        <sys_id>1001c91d4774021075dbcbb9316d433d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:12</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:12">5401c91d4774021075dbcbb9316d433b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:12</sys_created_on>
+                        <sys_id>1801c91d4774021075dbcbb9316d433c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:12</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:12">5401c91d4774021075dbcbb9316d433b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:12</sys_created_on>
+                        <sys_id>1c01c91d4774021075dbcbb9316d433b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:12</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:12">5401c91d4774021075dbcbb9316d433b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:12</sys_created_on>
+                        <sys_id>5401c91d4774021075dbcbb9316d433c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:12</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:12">5401c91d4774021075dbcbb9316d433b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:12</sys_created_on>
+                        <sys_id>9001c91d4774021075dbcbb9316d433c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:12</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:12">5401c91d4774021075dbcbb9316d433b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:12</sys_created_on>
+                        <sys_id>d401c91d4774021075dbcbb9316d433b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:12</sys_updated_on>
+                        <value>3f88106047a0821075dbcbb9316d43ce</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:12">5401c91d4774021075dbcbb9316d433b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:12</sys_created_on>
+                        <sys_id>d801c91d4774021075dbcbb9316d433c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:12</sys_updated_on>
+                        <value>Ábris project - Risks</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2024-03-06 05:11:12">5401c91d4774021075dbcbb9316d433b</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:11:12</sys_created_on>
+                        <sys_id>dc01c91d4774021075dbcbb9316d433b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:11:12</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="Project Status Report with OOTB tools">41dcf0914774021075dbcbb9316d4309</page>
+                <summary>Ábris Project -  Overview</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2024-03-06 13:06:56</sys_created_on>
+                <sys_id>710005d94774021075dbcbb9316d4368</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2024-03-06 13:06:56</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2024-03-06 05:06:56">710005d94774021075dbcbb9316d4368</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:06:56</sys_created_on>
+                        <sys_id>350005d94774021075dbcbb9316d4369</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:06:56</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2024-03-06 05:06:56">710005d94774021075dbcbb9316d4368</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:06:56</sys_created_on>
+                        <sys_id>390005d94774021075dbcbb9316d4368</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:06:56</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2024-03-06 05:06:56">710005d94774021075dbcbb9316d4368</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:06:56</sys_created_on>
+                        <sys_id>3d0005d94774021075dbcbb9316d4369</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:06:56</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2024-03-06 05:06:56">710005d94774021075dbcbb9316d4368</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:06:56</sys_created_on>
+                        <sys_id>710005d94774021075dbcbb9316d4369</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:06:56</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2024-03-06 05:06:56">710005d94774021075dbcbb9316d4368</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:06:56</sys_created_on>
+                        <sys_id>bd0005d94774021075dbcbb9316d4368</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:06:56</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2024-03-06 05:06:56">710005d94774021075dbcbb9316d4368</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:06:56</sys_created_on>
+                        <sys_id>f10005d94774021075dbcbb9316d4368</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:06:56</sys_updated_on>
+                        <value>9ac0f34c47a8021075dbcbb9316d43bb</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2024-03-06 05:06:56">710005d94774021075dbcbb9316d4368</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:06:56</sys_created_on>
+                        <sys_id>f50005d94774021075dbcbb9316d4369</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:06:56</sys_updated_on>
+                        <value>Ábris Project -  Overview</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2024-03-06 05:06:56">710005d94774021075dbcbb9316d4368</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:06:56</sys_created_on>
+                        <sys_id>f90005d94774021075dbcbb9316d4368</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:06:56</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="Project Status Report with OOTB tools">41dcf0914774021075dbcbb9316d4309</page>
+                <summary>Ábris Project -  Summary</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2024-03-06 13:07:46</sys_created_on>
+                <sys_id>8a30c5d94774021075dbcbb9316d4308</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2024-03-06 13:07:46</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2024-03-06 05:07:46">8a30c5d94774021075dbcbb9316d4308</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:07:46</sys_created_on>
+                        <sys_id>0230c5d94774021075dbcbb9316d430a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:07:46</sys_updated_on>
+                        <value>Ábris Project -  Summary</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2024-03-06 05:07:46">8a30c5d94774021075dbcbb9316d4308</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:07:46</sys_created_on>
+                        <sys_id>0630c5d94774021075dbcbb9316d4309</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:07:46</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2024-03-06 05:07:46">8a30c5d94774021075dbcbb9316d4308</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:07:46</sys_created_on>
+                        <sys_id>0e30c5d94774021075dbcbb9316d4308</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:07:46</sys_updated_on>
+                        <value>cd0c47dc47e8421075dbcbb9316d433e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2024-03-06 05:07:46">8a30c5d94774021075dbcbb9316d4308</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:07:46</sys_created_on>
+                        <sys_id>4230c5d94774021075dbcbb9316d4309</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:07:46</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2024-03-06 05:07:46">8a30c5d94774021075dbcbb9316d4308</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:07:46</sys_created_on>
+                        <sys_id>4630c5d94774021075dbcbb9316d430a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:07:46</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2024-03-06 05:07:46">8a30c5d94774021075dbcbb9316d4308</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:07:46</sys_created_on>
+                        <sys_id>4e30c5d94774021075dbcbb9316d4309</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:07:46</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2024-03-06 05:07:46">8a30c5d94774021075dbcbb9316d4308</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:07:46</sys_created_on>
+                        <sys_id>8a30c5d94774021075dbcbb9316d4309</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:07:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2024-03-06 05:07:46">8a30c5d94774021075dbcbb9316d4308</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:07:46</sys_created_on>
+                        <sys_id>c630c5d94774021075dbcbb9316d4309</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:07:46</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="Project Status Report with OOTB tools">41dcf0914774021075dbcbb9316d4309</page>
+                <summary>Ábris Project - Issues</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2024-03-06 13:09:47</sys_created_on>
+                <sys_id>a7a0cdd94774021075dbcbb9316d43c6</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2024-03-06 13:09:47</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2024-03-06 05:09:47">a7a0cdd94774021075dbcbb9316d43c6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:09:47</sys_created_on>
+                        <sys_id>23a0cdd94774021075dbcbb9316d43c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:09:47</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2024-03-06 05:09:47">a7a0cdd94774021075dbcbb9316d43c6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:09:47</sys_created_on>
+                        <sys_id>2ba0cdd94774021075dbcbb9316d43c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:09:47</sys_updated_on>
+                        <value>c8b9d8e047a0821075dbcbb9316d4304</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2024-03-06 05:09:47">a7a0cdd94774021075dbcbb9316d43c6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:09:47</sys_created_on>
+                        <sys_id>2fa0cdd94774021075dbcbb9316d43c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:09:47</sys_updated_on>
+                        <value>Ábris Project - Issues</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2024-03-06 05:09:47">a7a0cdd94774021075dbcbb9316d43c6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:09:47</sys_created_on>
+                        <sys_id>63a0cdd94774021075dbcbb9316d43c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:09:47</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2024-03-06 05:09:47">a7a0cdd94774021075dbcbb9316d43c6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:09:47</sys_created_on>
+                        <sys_id>6ba0cdd94774021075dbcbb9316d43c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:09:47</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2024-03-06 05:09:47">a7a0cdd94774021075dbcbb9316d43c6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:09:47</sys_created_on>
+                        <sys_id>6fa0cdd94774021075dbcbb9316d43c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:09:47</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2024-03-06 05:09:47">a7a0cdd94774021075dbcbb9316d43c6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:09:47</sys_created_on>
+                        <sys_id>a7a0cdd94774021075dbcbb9316d43c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:09:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2024-03-06 05:09:47">a7a0cdd94774021075dbcbb9316d43c6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:09:47</sys_created_on>
+                        <sys_id>e3a0cdd94774021075dbcbb9316d43c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:09:47</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="Project Status Report with OOTB tools">41dcf0914774021075dbcbb9316d4309</page>
+                <summary>Key Milestones - Pending</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2024-03-06 13:05:06</sys_created_on>
+                <sys_id>cb9f38994774021075dbcbb9316d435a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2024-03-06 13:05:06</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2024-03-06 05:05:06">cb9f38994774021075dbcbb9316d435a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:05:06</sys_created_on>
+                        <sys_id>0f9f38994774021075dbcbb9316d435b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:05:06</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2024-03-06 05:05:06">cb9f38994774021075dbcbb9316d435a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:05:06</sys_created_on>
+                        <sys_id>439f38994774021075dbcbb9316d435b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:05:06</sys_updated_on>
+                        <value>5623b6dc4768421075dbcbb9316d43f2</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2024-03-06 05:05:06">cb9f38994774021075dbcbb9316d435a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:05:06</sys_created_on>
+                        <sys_id>4b9f38994774021075dbcbb9316d435b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:05:06</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2024-03-06 05:05:06">cb9f38994774021075dbcbb9316d435a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:05:06</sys_created_on>
+                        <sys_id>839f38994774021075dbcbb9316d435c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:05:06</sys_updated_on>
+                        <value>Key Milestones - Pending</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2024-03-06 05:05:06">cb9f38994774021075dbcbb9316d435a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:05:06</sys_created_on>
+                        <sys_id>879f38994774021075dbcbb9316d435b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:05:06</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2024-03-06 05:05:06">cb9f38994774021075dbcbb9316d435a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:05:06</sys_created_on>
+                        <sys_id>cf9f38994774021075dbcbb9316d435b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:05:06</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="Project Status Report with OOTB tools">41dcf0914774021075dbcbb9316d4309</page>
+                <summary>Ábris Project - Key Milestones - Completed</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2024-03-06 13:08:29</sys_created_on>
+                <sys_id>e0604dd94774021075dbcbb9316d43dc</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2024-03-06 13:08:29</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2024-03-06 05:08:29">e0604dd94774021075dbcbb9316d43dc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:08:29</sys_created_on>
+                        <sys_id>20604dd94774021075dbcbb9316d43dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:08:29</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2024-03-06 05:08:29">e0604dd94774021075dbcbb9316d43dc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:08:29</sys_created_on>
+                        <sys_id>64604dd94774021075dbcbb9316d43dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:08:29</sys_updated_on>
+                        <value>ae6c721c47a8421075dbcbb9316d43fd</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2024-03-06 05:08:29">e0604dd94774021075dbcbb9316d43dc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:08:29</sys_created_on>
+                        <sys_id>68604dd94774021075dbcbb9316d43dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:08:29</sys_updated_on>
+                        <value>Ábris Project - Key Milestones - Completed</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2024-03-06 05:08:29">e0604dd94774021075dbcbb9316d43dc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:08:29</sys_created_on>
+                        <sys_id>6c604dd94774021075dbcbb9316d43dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:08:29</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2024-03-06 05:08:29">e0604dd94774021075dbcbb9316d43dc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:08:29</sys_created_on>
+                        <sys_id>a4604dd94774021075dbcbb9316d43dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:08:29</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2024-03-06 05:08:29">e0604dd94774021075dbcbb9316d43dc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:08:29</sys_created_on>
+                        <sys_id>a8604dd94774021075dbcbb9316d43dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:08:29</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2024-03-06 05:08:29">e0604dd94774021075dbcbb9316d43dc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:08:29</sys_created_on>
+                        <sys_id>ac604dd94774021075dbcbb9316d43dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:08:29</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2024-03-06 05:08:29">e0604dd94774021075dbcbb9316d43dc</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2024-03-06 13:08:29</sys_created_on>
+                        <sys_id>e0604dd94774021075dbcbb9316d43dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2024-03-06 13:08:29</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

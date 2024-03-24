@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_programmatic">
+    <content_block_programmatic action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Nézzük meg mi ez</name>
+        <programmatic_content><![CDATA[<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null">
+    <html>
+    <head>
+        <title>Project Identifier</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer="true"></script>
+        <script src="script.js" defer="true"></script> <!-- Added defer attribute -->
+        <script>
+            (function() {
+                data.title = options.title || 'My Project';
+                data.project = getProjectRecord();
+
+                function getProjectRecord() {
+                    var project = {};
+
+                    // Ellenőrizzük, hogy a sys_id csak egyetlen projektre vonatkozzon
+                    var projectId = gs.getUser().getID(); // Itt a projekt azonosítóját lekérdezzük a jelenlegi felhasználótól vagy egyéb módon
+                    var prjList = new GlideRecord('pm_project');
+                    prjList.addQuery('sys_id', 'NEW_PROJECT_SYS_ID'); // Új projekt azonosítója itt
+                    prjList.query();
+
+                    if (prjList.next()) {
+                        project.sys_id = prjList.sys_id.toString();
+                        project.number = prjList.number.toString();
+                        project.short_description = prjList.short_description.toString();
+                    }
+
+                    return project;
+                }
+            })();
+        </script>
+    </head>
+    <body>
+        <div>
+            <h2>${data.title}</h2>
+            <div id="projectIdentifier">${data.project.number}</div> <!-- Display project number -->
+        </div>
+    </body>
+    </html>
+</j:jelly>]]></programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 08:38:08</sys_created_on>
+        <sys_id>ce5f4e954720021075dbcbb9316d43b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Nézzük meg mi ez</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>content_block_programmatic_ce5f4e954720021075dbcbb9316d43b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-23 08:39:54</sys_updated_on>
+        <two_phase>false</two_phase>
+    </content_block_programmatic>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</application>
+        <file_path/>
+        <instance_id>eea597951bc27dd852a243f4bd4bcbb6</instance_id>
+        <instance_name>dev193245</instance_name>
+        <name>content_block_programmatic_ce5f4e954720021075dbcbb9316d43b7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="content_block_programmatic"&gt;&lt;content_block_programmatic action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;frame/&gt;&lt;logged_on&gt;false&lt;/logged_on&gt;&lt;name&gt;Nézzük meg mi ez&lt;/name&gt;&lt;programmatic_content&gt;&lt;![CDATA[&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null"&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Project Identifier&lt;/title&gt;
+        &lt;script src="https://code.jquery.com/jquery-3.6.0.min.js" defer="true"&gt;&lt;/script&gt;
+        &lt;script src="script.js" defer="true"&gt;&lt;/script&gt; &lt;!-- Added defer attribute --&gt;
+        &lt;script&gt;
+            (function() {
+                data.title = options.title || 'My Project';
+                data.project = getProjectRecord();
+
+                function getProjectRecord() {
+                    var project = {};
+
+                    // Ellenőrizzük, hogy a sys_id csak egyetlen projektre vonatkozzon
+                    var projectId = gs.getUser().getID(); // Itt a projekt azonosítóját lekérdezzük a jelenlegi felhasználótól vagy egyéb módon
+                    var prjList = new GlideRecord('pm_project');
+                    prjList.addQuery('sys_id', 'NEW_PROJECT_SYS_ID'); // Új projekt azonosítója itt
+                    prjList.query();
+
+                    if (prjList.next()) {
+                        project.sys_id = prjList.sys_id.toString();
+                        project.number = prjList.number.toString();
+                        project.short_description = prjList.short_description.toString();
+                    }
+
+                    return project;
+                }
+            })();
+        &lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div&gt;
+            &lt;h2&gt;${data.title}&lt;/h2&gt;
+            &lt;div id="projectIdentifier"&gt;${data.project.number}&lt;/div&gt; &lt;!-- Display project number --&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/programmatic_content&gt;&lt;sys_class_name&gt;content_block_programmatic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-23 08:38:08&lt;/sys_created_on&gt;&lt;sys_id&gt;ce5f4e954720021075dbcbb9316d43b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Nézzük meg mi ez&lt;/sys_name&gt;&lt;sys_package display_value="Custom Ábris Demand" source="x_1143687_valami"&gt;e0a6df0b4794021075dbcbb9316d4376&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Custom Ábris Demand"&gt;e0a6df0b4794021075dbcbb9316d4376&lt;/sys_scope&gt;&lt;sys_update_name&gt;content_block_programmatic_ce5f4e954720021075dbcbb9316d43b7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-23 08:39:54&lt;/sys_updated_on&gt;&lt;two_phase&gt;false&lt;/two_phase&gt;&lt;/content_block_programmatic&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-458132296</payload_hash>
+        <record_name>Nézzük meg mi ez</record_name>
+        <reverted_from/>
+        <source>a4a6df0b4794021075dbcbb9316d437a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 08:39:54</sys_created_on>
+        <sys_id>21df0a954720021075dbcbb9316d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dd51eff360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-23 08:39:54</sys_updated_on>
+        <type>Dynamic Content</type>
+        <update_guid>e5df0a95d72002106327022238e9c08b</update_guid>
+        <update_guid_history>e5df0a95d72002106327022238e9c08b:-458132296,9f6f4e957020021094ebec8f42e6d56d:-474667641</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Nézzük meg mi ez">028824434741021075dbcbb9316d4322</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-24 08:09:20</sys_created_on>
+        <sys_db_object display_value="" name="content_block_programmatic">content_block_programmatic</sys_db_object>
+        <sys_id>7aa65a8329984e5c95bfc55e62edf224</sys_id>
+        <sys_metadata>ce5f4e954720021075dbcbb9316d43b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nézzük meg mi ez</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_scope_delete display_value="">031f33624760400c8e98df96c3e22629</sys_scope_delete>
+        <sys_update_name>content_block_programmatic_ce5f4e954720021075dbcbb9316d43b7</sys_update_name>
+        <sys_update_version display_value="content_block_programmatic_ce5f4e954720021075dbcbb9316d43b7">21df0a954720021075dbcbb9316d438c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-24 08:09:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

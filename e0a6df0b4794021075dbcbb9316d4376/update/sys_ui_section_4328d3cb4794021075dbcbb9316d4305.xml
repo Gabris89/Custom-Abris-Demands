@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Financials" section_id="4328d3cb4794021075dbcbb9316d4305" sys_domain="global" table="x_1143687_valami_valami" version="3" view="planning_console">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>capital_outlay</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_id>4f28d3cb4794021075dbcbb9316d4306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4328d3cb4794021075dbcbb9316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>operational_outlay</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_id>cb28d3cb4794021075dbcbb9316d4308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4328d3cb4794021075dbcbb9316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_costs</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_id>4b28d3cb4794021075dbcbb9316d4307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4328d3cb4794021075dbcbb9316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expected_roi</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_id>c728d3cb4794021075dbcbb9316d4309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4328d3cb4794021075dbcbb9316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>demand_actual_cost</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_id>4328d3cb4794021075dbcbb9316d4306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4328d3cb4794021075dbcbb9316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_id>cf28d3cb4794021075dbcbb9316d4307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4328d3cb4794021075dbcbb9316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>financial_return</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_id>c728d3cb4794021075dbcbb9316d4306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4328d3cb4794021075dbcbb9316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>financial_benefit</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_id>4728d3cb4794021075dbcbb9316d4308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4328d3cb4794021075dbcbb9316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>capital_budget</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_id>c328d3cb4794021075dbcbb9316d4307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4328d3cb4794021075dbcbb9316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>operational_budget</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_id>4328d3cb4794021075dbcbb9316d4309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4328d3cb4794021075dbcbb9316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Financials</caption>
+            <header>false</header>
+            <name>x_1143687_valami_valami</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4328d3cb4794021075dbcbb9316d4305</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1143687_valami_valami</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+            <sys_update_name>sys_ui_section_4328d3cb4794021075dbcbb9316d4305</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Planning Console" name="planning_console">d38d80523713310033cb26877e41f1c2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

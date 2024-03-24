@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="be2893cb4794021075dbcbb9316d43ac" sys_domain="global" table="x_1143687_valami_valami" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>832893cb4794021075dbcbb9316d43e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1143687_valami_valami" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">be2893cb4794021075dbcbb9316d43ac</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">472893cb4794021075dbcbb9316d43cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>872893cb4794021075dbcbb9316d43f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1143687_valami_valami" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">be2893cb4794021075dbcbb9316d43ac</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">872893cb4794021075dbcbb9316d43e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>432893cb4794021075dbcbb9316d43cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1143687_valami_valami" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">be2893cb4794021075dbcbb9316d43ac</sys_ui_form>
+            <sys_ui_section caption="Business Case" display_value="Business Case" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">8b2893cb4794021075dbcbb9316d43b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4728d3cb4794021075dbcbb9316d430c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1143687_valami_valami" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">be2893cb4794021075dbcbb9316d43ac</sys_ui_form>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4328d3cb4794021075dbcbb9316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>032893cb4794021075dbcbb9316d43ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1143687_valami_valami" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">be2893cb4794021075dbcbb9316d43ac</sys_ui_form>
+            <sys_ui_section caption="Assessment Data" display_value="Assessment Data" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">8b2893cb4794021075dbcbb9316d43f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f28d3cb4794021075dbcbb9316d4304</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1143687_valami_valami" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">be2893cb4794021075dbcbb9316d43ac</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">072893cb4794021075dbcbb9316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>432893cb4794021075dbcbb9316d43b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1143687_valami_valami" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">be2893cb4794021075dbcbb9316d43ac</sys_ui_form>
+            <sys_ui_section caption="Preferences" display_value="Preferences" name="x_1143687_valami_valami" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">762893cb4794021075dbcbb9316d43b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1143687_valami_valami</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 14:09:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be2893cb4794021075dbcbb9316d43ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1143687_valami_valami</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+            <sys_update_name>sys_ui_form_sections_be2893cb4794021075dbcbb9316d43ac</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 14:09:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Planning Console" name="planning_console">d38d80523713310033cb26877e41f1c2</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

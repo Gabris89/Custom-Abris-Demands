@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Copy of Project Status Comments">c076335447ec421075dbcbb9316d4384</child>
+        <cloned>2024-02-20 13:34:16</cloned>
+        <last_validated>2024-02-20 13:34:16</last_validated>
+        <parent display_value="Project Status Comments">bd70ed199f102200598a5bb0657fcfba</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category/&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, $sce) {
+  /* widget controller */
+  $scope.trustAsHtml = function(string) {
+    return $sce.trustAsHtml(string);
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.container {&amp;#13;
+   display: -ms-flex;&amp;#13;
+   display: -webkit-flex;&amp;#13;
+   display: flex;&amp;#13;
+}&amp;#13;
+.overview {&amp;#13;
+    /*width: 30%;*/&amp;#13;
+    padding-top: 10px;&amp;#13;
+}&amp;#13;
+.summary {&amp;#13;
+   /*width: 70%;*/&amp;#13;
+   padding-top: 10px;&amp;#13;
+   /*padding-left: 10px;*/&amp;#13;
+}&amp;#13;
+.summary-value {&amp;#13;
+  padding: 5px;&amp;#13;
+  word-wrap: break-word;&amp;#13;
+  width: inherit;&amp;#13;
+}&amp;#13;
+.panel-override {&amp;#13;
+  height: 95%;&amp;#13;
+}&amp;#13;
+.info-table {&amp;#13;
+    width: 100%;&amp;#13;
+    margin-bottom: 10px;&amp;#13;
+}&amp;#13;
+.tbody-class {&amp;#13;
+  display: table-row-group;&amp;#13;
+  vertical-align: middle;&amp;#13;
+  border-color: inherit;&amp;#13;
+}&amp;#13;
+.label-column {&amp;#13;
+    /*text-align: right;*/&amp;#13;
+    font-weight: 300;&amp;#13;
+    white-space: nowrap;&amp;#13;
+    width: 45%;&amp;#13;
+    padding-right: 10px;&amp;#13;
+}&amp;#13;
+.value-column {&amp;#13;
+  font-weight: bold;&amp;#13;
+  padding-left: 20px;&amp;#13;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;project-status-comments&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Project Status Comments&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  var result = (new PmProjectStatusReport()).statusByReportName("overallStatus", $sp.getParameter('sysparm_sys_id'), $sp.getParameter('sysparm_status_date'), $sp.getParameter('sysparm_report_id'));
+	//gs.info(new JSON().encode(result));
+	if(JSUtil.notNil(result)) {
+		data.overall_status = result;
+	}
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-28 00:21:28&lt;/sys_created_on&gt;&lt;sys_id&gt;bd70ed199f102200598a5bb0657fcfba&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;Project Status Comments&lt;/sys_name&gt;&lt;sys_package display_value="Project Portfolio Suite Portal" source="com.snc.pps_portal"&gt;91edd36a4700021075dbcbb9316d4380&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_bd70ed199f102200598a5bb0657fcfba&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-04 11:41:00&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="summary"&gt;
+	&lt;div class="panel panel-{{::c.options.color}} b panel-override"&gt;
+	 &lt;div class="panel-heading"&gt;
+    	&lt;div class="panel-title"&gt;${Summary}&lt;/div&gt;
+	  &lt;/div&gt;  
+	  &lt;div class="panel-body"&gt;    
+        &lt;h5&gt; &lt;b&gt;${Executive Summary}&lt;/b&gt;&lt;/h5&gt;
+        &lt;div class="summary-value"&gt;
+          &lt;span ng-bind-html="trustAsHtml(data.overall_status.displayFields[0].value)"&gt; &lt;/span&gt;  
+        &lt;/div&gt;
+        &lt;h5&gt;&lt;b&gt;${Last Week's Achievements}&lt;/b&gt;&lt;/h5&gt;
+        &lt;div class="summary-value"&gt;
+          &lt;span ng-bind-html="trustAsHtml(data.overall_status.displayFields[1].value)"&gt; &lt;/span&gt;  
+        &lt;/div&gt;
+        &lt;h5&gt;&lt;b&gt;${Key Activities Planned}&lt;/b&gt;&lt;/h5&gt;
+        &lt;div class="summary-value"&gt;
+          &lt;span ng-bind-html="trustAsHtml(data.overall_status.displayFields[2].value)"&gt; &lt;/span&gt;  
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;  
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 13:34:16</sys_created_on>
+        <sys_id>0c76335447ec421075dbcbb9316d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c076335447ec421075dbcbb9316d4384</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_0c76335447ec421075dbcbb9316d4387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 13:34:16</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

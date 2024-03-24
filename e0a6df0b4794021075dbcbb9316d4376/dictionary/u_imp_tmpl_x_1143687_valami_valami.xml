@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bba60e4447a0021075dbcbb9316d432a" extends="sys_import_set_row" label="Imp Tmpl X 1143687 Valami Valami" max_length="40" name="u_imp_tmpl_x_1143687_valami_valami" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Approved end date" label="Approved end date" max_length="40" name="u_approved_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Approved start date" label="Approved start date" max_length="40" name="u_approved_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Business Unit" label="Business Unit" max_length="32" name="u_business_unit" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department" label="Department" max_length="32" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Due date" label="Due date" max_length="40" name="u_due_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Investment Class" label="Investment Class" max_length="40" name="u_investment_class" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Investment Type" label="Investment Type" max_length="40" name="u_investment_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location" max_length="32" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Portfolio" label="Portfolio" max_length="32" name="u_portfolio" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Priority" label="Priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Project" label="Project" max_length="32" name="u_project" type="string"/>
+        <element attributes="import_attribute_name=Risk" label="Risk" max_length="15" name="u_risk" type="decimal"/>
+        <element attributes="import_attribute_name=Score" label="Score" max_length="15" name="u_score" type="decimal"/>
+        <element attributes="import_attribute_name=Size" label="Size" max_length="15" name="u_size" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Stage" label="Stage" max_length="40" name="u_stage" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Start date" label="Start date" max_length="40" name="u_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Task type" label="Task type" max_length="80" name="u_task_type" type="string"/>
+        <element attributes="import_attribute_name=Value" label="Value" max_length="15" name="u_value" type="decimal"/>
+    </element>
+</database>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1143687_valami_Abris test UI page15.do</endpoint>
+        <html><![CDATA[<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+  <g:evaluate jelly="true" object="true" var="jvar_jsonObj">
+    // Tömb létrehozása az adatok tárolásához
+    var projectRiskList = [];
+
+    // Lekérdezés a projekt státuszokhoz
+    var grProject = new GlideRecord('pm_project');
+    grProject.addQuery('sys_id', '23d8ff0847e8021075dbcbb9316d4314');
+    grProject.query();
+
+    if (grProject.next()) {
+      var prSysId = grProject.getValue('sys_id');
+
+      // Projekt issue-k lekérdezése
+      var grProjectRisks = new GlideRecord('risk');
+      grProjectRisks.addQuery('top_task', prSysId);
+      grProjectRisks.query();
+
+      // Issuek bejárása és adatok betöltése a tömbbe
+      while (grProjectRisks.next()) {
+        var RisksObject = {
+          'riskNumber': grProjectRisks.getValue('number'),
+		  'riskSysID': grProjectRisks.getValue('sys_id'),
+		  'riskShortDesc': grProjectRisks.getValue('short_description'),
+          'riskProbability': grProjectRisks.getDisplayValue('probability'),
+		  'riskAssignedTo': grProjectRisks.getDisplayValue('assigned_to'),
+		  'riskDueDate': grProjectRisks.getValue('due_date').substring(0,10),
+		  'riskState': grProjectRisks.getDisplayValue('state')
+
+        };
+
+        projectRiskList.push(RisksObject);
+		projectRiskList;
+      }
+    }
+
+  </g:evaluate>
+
+   <style>
+    table {
+        border-color: black;
+		border-width: 15px;
+
+	}
+    th {
+      padding: 20px; /* További hely hozzáadása a header cellákhoz */
+	  text-align: center;
+    }
+    td {
+      width: 30px;
+      height: 30px;
+	  text-align:center;
+    }
+  </style>
+
+  <table border="2">
+    <tr>
+      <th style="padding: 10px; width:150px;">Risk Number</th>
+	  <th style="padding: 10px; width:150px;">Short Description</th>
+      <th style="padding: 10px; width:150px;">Probability</th>
+	  <th style="padding: 10px; width:150px;">Assigned To</th>
+      <th style="padding: 10px; width:150px;">Due Date</th>
+      <th style="padding: 10px; width:150px;">State</th>
+
+    </tr>
+
+    <j:forEach var="jvar_json" items="${jvar_jsonObj}">
+      <tr>
+<td>
+    <a href="https://dev193245.service-now.com/nav_to.do?uri=risk.do?sys_id=${jvar_json.riskSysID}">
+        ${jvar_json.riskNumber}
+    </a>
+</td>
+		<td style="text-align:left; padding-left: 10px;">${jvar_json.riskShortDesc}</td>
+        <td>${jvar_json.riskProbability}</td>
+        <td>${jvar_json.riskAssignedTo}</td>
+        <td>${jvar_json.riskDueDate}</td>
+		<td>${jvar_json.riskState}</td>
+      </tr>
+    </j:forEach>
+  </table>
+</j:jelly>]]></html>
+        <name>Abris test UI page15</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 16:11:18</sys_created_on>
+        <sys_id>a81aa1514778021075dbcbb9316d436b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Abris test UI page15</sys_name>
+        <sys_package display_value="Custom Ábris Demand" source="x_1143687_valami">e0a6df0b4794021075dbcbb9316d4376</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Ábris Demand">e0a6df0b4794021075dbcbb9316d4376</sys_scope>
+        <sys_update_name>sys_ui_page_a81aa1514778021075dbcbb9316d436b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 16:16:22</sys_updated_on>
+    </sys_ui_page>
+</record_update>
